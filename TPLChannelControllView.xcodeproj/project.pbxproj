@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B9502941A834BC5007B3321 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9502931A834BC5007B3321 /* main.m */; };
+		3B9502971A834BC5007B3321 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9502961A834BC5007B3321 /* AppDelegate.m */; };
+		3B95029A1A834BC5007B3321 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9502991A834BC5007B3321 /* ViewController.m */; };
+		3B95029D1A834BC5007B3321 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B95029B1A834BC5007B3321 /* Main.storyboard */; };
+		3B95029F1A834BC5007B3321 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B95029E1A834BC5007B3321 /* Images.xcassets */; };
+		3B9502A21A834BC5007B3321 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B9502A01A834BC5007B3321 /* LaunchScreen.xib */; };
+		3B9502AE1A834BC5007B3321 /* TPLChannelControllViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9502AD1A834BC5007B3321 /* TPLChannelControllViewTests.m */; };
+		3B9502C21A834BF8007B3321 /* ChannelControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9502B91A834BF8007B3321 /* ChannelControlView.m */; };
+		3B9502C61A834BF8007B3321 /* VideoItemViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9502C11A834BF8007B3321 /* VideoItemViewCell.m */; };
+		3B9502C91A834C82007B3321 /* TPLHelpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9502C81A834C82007B3321 /* TPLHelpTool.m */; };
+		3B9502CC1A835CD3007B3321 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9502CB1A835CD3007B3321 /* TestViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B9502A81A834BC5007B3321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B9502861A834BC5007B3321 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B95028D1A834BC5007B3321;
+			remoteInfo = TPLChannelControllView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B95028E1A834BC5007B3321 /* TPLChannelControllView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TPLChannelControllView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B9502921A834BC5007B3321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B9502931A834BC5007B3321 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B9502951A834BC5007B3321 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B9502961A834BC5007B3321 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B9502981A834BC5007B3321 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3B9502991A834BC5007B3321 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3B95029C1A834BC5007B3321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B95029E1A834BC5007B3321 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3B9502A11A834BC5007B3321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3B9502A71A834BC5007B3321 /* TPLChannelControllViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TPLChannelControllViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B9502AC1A834BC5007B3321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B9502AD1A834BC5007B3321 /* TPLChannelControllViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPLChannelControllViewTests.m; sourceTree = "<group>"; };
+		3B9502B81A834BF8007B3321 /* ChannelControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelControlView.h; sourceTree = "<group>"; };
+		3B9502B91A834BF8007B3321 /* ChannelControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelControlView.m; sourceTree = "<group>"; };
+		3B9502C01A834BF8007B3321 /* VideoItemViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoItemViewCell.h; sourceTree = "<group>"; };
+		3B9502C11A834BF8007B3321 /* VideoItemViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoItemViewCell.m; sourceTree = "<group>"; };
+		3B9502C71A834C82007B3321 /* TPLHelpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLHelpTool.h; sourceTree = "<group>"; };
+		3B9502C81A834C82007B3321 /* TPLHelpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLHelpTool.m; sourceTree = "<group>"; };
+		3B9502CA1A835CD3007B3321 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		3B9502CB1A835CD3007B3321 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B95028B1A834BC5007B3321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B9502A41A834BC5007B3321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B9502851A834BC5007B3321 = {
+			isa = PBXGroup;
+			children = (
+				3B9502901A834BC5007B3321 /* TPLChannelControllView */,
+				3B9502AA1A834BC5007B3321 /* TPLChannelControllViewTests */,
+				3B95028F1A834BC5007B3321 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B95028F1A834BC5007B3321 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B95028E1A834BC5007B3321 /* TPLChannelControllView.app */,
+				3B9502A71A834BC5007B3321 /* TPLChannelControllViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B9502901A834BC5007B3321 /* TPLChannelControllView */ = {
+			isa = PBXGroup;
+			children = (
+				3B9502C71A834C82007B3321 /* TPLHelpTool.h */,
+				3B9502C81A834C82007B3321 /* TPLHelpTool.m */,
+				3B9502B71A834BF8007B3321 /* Channel */,
+				3B9502951A834BC5007B3321 /* AppDelegate.h */,
+				3B9502961A834BC5007B3321 /* AppDelegate.m */,
+				3B9502981A834BC5007B3321 /* ViewController.h */,
+				3B9502991A834BC5007B3321 /* ViewController.m */,
+				3B95029B1A834BC5007B3321 /* Main.storyboard */,
+				3B95029E1A834BC5007B3321 /* Images.xcassets */,
+				3B9502A01A834BC5007B3321 /* LaunchScreen.xib */,
+				3B9502911A834BC5007B3321 /* Supporting Files */,
+			);
+			path = TPLChannelControllView;
+			sourceTree = "<group>";
+		};
+		3B9502911A834BC5007B3321 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B9502921A834BC5007B3321 /* Info.plist */,
+				3B9502931A834BC5007B3321 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B9502AA1A834BC5007B3321 /* TPLChannelControllViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B9502AD1A834BC5007B3321 /* TPLChannelControllViewTests.m */,
+				3B9502AB1A834BC5007B3321 /* Supporting Files */,
+			);
+			path = TPLChannelControllViewTests;
+			sourceTree = "<group>";
+		};
+		3B9502AB1A834BC5007B3321 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B9502AC1A834BC5007B3321 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B9502B71A834BF8007B3321 /* Channel */ = {
+			isa = PBXGroup;
+			children = (
+				3B9502B81A834BF8007B3321 /* ChannelControlView.h */,
+				3B9502B91A834BF8007B3321 /* ChannelControlView.m */,
+				3B9502C01A834BF8007B3321 /* VideoItemViewCell.h */,
+				3B9502C11A834BF8007B3321 /* VideoItemViewCell.m */,
+				3B9502CA1A835CD3007B3321 /* TestViewController.h */,
+				3B9502CB1A835CD3007B3321 /* TestViewController.m */,
+			);
+			path = Channel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B95028D1A834BC5007B3321 /* TPLChannelControllView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B9502B11A834BC5007B3321 /* Build configuration list for PBXNativeTarget "TPLChannelControllView" */;
+			buildPhases = (
+				3B95028A1A834BC5007B3321 /* Sources */,
+				3B95028B1A834BC5007B3321 /* Frameworks */,
+				3B95028C1A834BC5007B3321 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TPLChannelControllView;
+			productName = TPLChannelControllView;
+			productReference = 3B95028E1A834BC5007B3321 /* TPLChannelControllView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B9502A61A834BC5007B3321 /* TPLChannelControllViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B9502B41A834BC5007B3321 /* Build configuration list for PBXNativeTarget "TPLChannelControllViewTests" */;
+			buildPhases = (
+				3B9502A31A834BC5007B3321 /* Sources */,
+				3B9502A41A834BC5007B3321 /* Frameworks */,
+				3B9502A51A834BC5007B3321 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B9502A91A834BC5007B3321 /* PBXTargetDependency */,
+			);
+			name = TPLChannelControllViewTests;
+			productName = TPLChannelControllViewTests;
+			productReference = 3B9502A71A834BC5007B3321 /* TPLChannelControllViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B9502861A834BC5007B3321 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "谭鄱仑";
+				TargetAttributes = {
+					3B95028D1A834BC5007B3321 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					3B9502A61A834BC5007B3321 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 3B95028D1A834BC5007B3321;
+					};
+				};
+			};
+			buildConfigurationList = 3B9502891A834BC5007B3321 /* Build configuration list for PBXProject "TPLChannelControllView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B9502851A834BC5007B3321;
+			productRefGroup = 3B95028F1A834BC5007B3321 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B95028D1A834BC5007B3321 /* TPLChannelControllView */,
+				3B9502A61A834BC5007B3321 /* TPLChannelControllViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B95028C1A834BC5007B3321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B95029D1A834BC5007B3321 /* Main.storyboard in Resources */,
+				3B9502A21A834BC5007B3321 /* LaunchScreen.xib in Resources */,
+				3B95029F1A834BC5007B3321 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B9502A51A834BC5007B3321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B95028A1A834BC5007B3321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B9502C21A834BF8007B3321 /* ChannelControlView.m in Sources */,
+				3B95029A1A834BC5007B3321 /* ViewController.m in Sources */,
+				3B9502CC1A835CD3007B3321 /* TestViewController.m in Sources */,
+				3B9502971A834BC5007B3321 /* AppDelegate.m in Sources */,
+				3B9502941A834BC5007B3321 /* main.m in Sources */,
+				3B9502C61A834BF8007B3321 /* VideoItemViewCell.m in Sources */,
+				3B9502C91A834C82007B3321 /* TPLHelpTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B9502A31A834BC5007B3321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B9502AE1A834BC5007B3321 /* TPLChannelControllViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B9502A91A834BC5007B3321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B95028D1A834BC5007B3321 /* TPLChannelControllView */;
+			targetProxy = 3B9502A81A834BC5007B3321 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B95029B1A834BC5007B3321 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B95029C1A834BC5007B3321 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B9502A01A834BC5007B3321 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B9502A11A834BC5007B3321 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B9502AF1A834BC5007B3321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B9502B01A834BC5007B3321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B9502B21A834BC5007B3321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TPLChannelControllView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3B9502B31A834BC5007B3321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TPLChannelControllView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3B9502B51A834BC5007B3321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TPLChannelControllViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TPLChannelControllView.app/TPLChannelControllView";
+			};
+			name = Debug;
+		};
+		3B9502B61A834BC5007B3321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TPLChannelControllViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TPLChannelControllView.app/TPLChannelControllView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B9502891A834BC5007B3321 /* Build configuration list for PBXProject "TPLChannelControllView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B9502AF1A834BC5007B3321 /* Debug */,
+				3B9502B01A834BC5007B3321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B9502B11A834BC5007B3321 /* Build configuration list for PBXNativeTarget "TPLChannelControllView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B9502B21A834BC5007B3321 /* Debug */,
+				3B9502B31A834BC5007B3321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3B9502B41A834BC5007B3321 /* Build configuration list for PBXNativeTarget "TPLChannelControllViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B9502B51A834BC5007B3321 /* Debug */,
+				3B9502B61A834BC5007B3321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B9502861A834BC5007B3321 /* Project object */;
+}
